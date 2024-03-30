@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # front-end-training
 =======
 # Front-end Training Project
@@ -36,4 +35,3 @@ If the tasks cannot be completed before the deadline, contact us, and we will pr
 
 > [!IMPORTANT]
 > Please avoid raising this issue on the day of the deadline or the day before.
->>>>>>> Stashed changes
