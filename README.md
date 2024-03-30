@@ -1,5 +1,3 @@
-# front-end-training
-=======
 # Front-end Training Project
 
 > [!NOTE]
