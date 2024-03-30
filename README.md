@@ -1,54 +1,34 @@
 # Front-end Training Project
 
-歡迎加入前端開發訓練計劃！此計劃將通過實作和互評，幫助團隊成員提升前端開發能力。以下是您參與此計劃需遵循的步驟與指南。
+> [!NOTE]
+> If you are not a participant yet but want to join this team, please email `nycu1sdc@gmail.com` and provide your name, email, Github ID, and Notion Account.
+> [Discord - A New Way to Chat with Friends & Communities](https://discord.com/channels/738258665135538228/1198426900784218133)
 
-## 開始之前
+## POLICY
 
-### 先決條件
+> We hope that after training, you can join the front-end team of [nycu.me](http://nycu.me/) and SDC.
+> We will add you to the list of contributors. You can add project details to your resume.
 
-在開始貢獻之前，請確保您已安裝以下內容：
-- Git
-- 您喜歡的前端開發 IDE，或是使用任務 FETP-10 中所引導的 VS Code。
+### **Training Load**    
+around 6 hrs/week in this winter vacation. (January 22, 2024 → February 18, 2024)
+    
+### **Load In Semester**
+About 2 hrs/week. A task/bi-week - March 17, 2024 1:18 PM 
+~~We will hold a team meeting to discuss this with you all.~~
+    
+### **Communication**
+We will use the channel - [Front-end-team](https://discord.com/channels/738258665135538228/1198426900784218133) in Discord to communicate with you all.
+Please install Discord on your mobile device and turn the notification on to avoid missing important information.
+And now, we have a Google group: [2024 Front-end Training](https://groups.google.com/u/0/g/2024-front-end-training/) to communicate with you synchronously. - March 17, 2024 1:18 PM 
 
-### 初始設定
+    
+### **Active Learning**
+This project is supervised by NYCU Liberal Arts College. - March 17, 2024 1:19 PM 
+If you are willing, I will apply for the Active Learning book club, and relevant resources and funds will be available.
+[2024-Active Learning自主學習計畫-補助說明與附件.pdf](https://drive.google.com/file/d/1q8NpZfFv4hwPd092vwKg9R2aB60VcjxI/view)
+    
+### **Deadline Policy**
+If the tasks cannot be completed before the deadline, contact us, and we will provide the corresponding assistance or adjust the deadline.
 
-1. **Create Project：**
-   - 將您的專案推到自己的 GitHub Repository，並設置為公開。
-   - 請參考 Task [FETP-21](tasks/fetp-21.md)。
-
-2. **Clone Project：**
-   - 使用 Git Clone 將 Front-end Training Project 複製到您的本地機器。替換 `URL_OF_REPO` 為實際的 Repo. 的 URL：
-     ```
-     git clone URL_OF_REPO
-     ```
-
-3. **Branch：**
-   - 將 `your_name` 替換成你的 GitHub ID：
-     ```
-     git checkout -b your_name
-     ```
-
-4. **Submodule：**
-   - 將 `URL_OF_YOUR_PROJECT` 替換為您 GitHub 專案 URL：
-     ```
-     git submodule add URL_OF_YOUR_PROJECT path/to/submodule/your_project_name
-     ```
-
-5. **Update Report：**
-   - 在 `reports` 目錄中找到本次任務的目錄，在其中加入一個 markdown 文件 (`your_github_id.md`)，完成 Report。
-
-6. **Push Branch：**
-   - 加入了您的專案和報告後，將您的 Branch 推到 GitHub Repo.：
-     ```
-     git push -u origin your_name
-     ```
-
-## Contributors' Responsibility
-
-1. **Pull Request：**
-
-2. **Peer Review：**
-
-3. **Feedback：**
-
-4. **Approve & Merge：**
+> [!IMPORTANT]
+> Please avoid raising this issue on the day of the deadline or the day before.
