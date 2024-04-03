@@ -1,19 +1,55 @@
 # TASK FETP-21
-本次任務要讓各位將 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 中的 Code 推到各位自己的 GitHub Repository.
+本任務要讓各位將 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 中的 Code 推到各位自己的 GitHub Repository.
 
 - **任務回報**：Covered by Task [FETP-22](./fetp-22.md).
 - **任務截止**：`2024/04/08` - `2024/04/14`
 
-# 任務指引
+---
+
+## TOC
+- [TASK FETP-21](#task-fetp-21)
+  - [TOC](#toc)
+  - [建立 Key Pair](#建立-key-pair)
+  - [設定 SSH Config](#設定-ssh-config)
+    - [STEP 1](#step-1)
+    - [STEP 2](#step-2)
+    - [STEP 3](#step-3)
+  - [將公鑰上傳至 GitHub](#將公鑰上傳至-github)
+  - [建立 Remote Repository](#建立-remote-repository)
+    - [1. 回到自己的 GitHub 首頁，並點擊紅圈處 New。](#1-回到自己的-github-首頁並點擊紅圈處-new)
+    - [2. 完成紅圈處設定](#2-完成紅圈處設定)
+  - [Push to GitHub](#push-to-github)
+    - [1. 選擇 SSH 並複製紅圈處指令](#1-選擇-ssh-並複製紅圈處指令)
+    - [2. 在 VM 中 `routingapp` 的專案目錄下貼上此指令](#2-在-vm-中-routingapp-的專案目錄下貼上此指令)
+
+---
 
 ## 建立 Key Pair
 
-### 1. 使用 `ssh-keygen` 生成 Key Pair。
+**Reading Documentation**
+
+> [!IMPORTANT]
+> 
+> GitHub Docs: [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+> [!IMPORTANT]
+> 
+> 請完成 Section: <ins>Generating a new SSH key</ins> 即可。
+
+> [!WARNING]
+>
+> 請注意文件中應選擇 <ins>Linux</ins> 的 Tag，並在 VM 中完成操作！
+
+> [!TIP]
+>
+> 如果忘記怎麼判斷本機與 VM (Server) ，Review TASK [(FETP-9) Vue Environment and Initialization](https://www.notion.so/sdc-nycu/Vue-Environment-and-Initialization-f3494b38c2654c489689f97d8d373d2a?pvs=4)
+
+<!-- ### 1. 使用 `ssh-keygen` 生成 Key Pair。
 
 請將 `<_your-gethub-id_>` 換成你的 GitHub ID。
 ```sh
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/<_your-gethub-id_>@github.com
-```
+``` -->
 
 ---
 
@@ -47,7 +83,7 @@ ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/<_your-gethub-id_>@github.com
 
 ---
 
-### 2. 通通都按 `Enter`。
+<!-- ### 2. 通通都按 `Enter`。
 
 Sample Output:
 ```
@@ -79,11 +115,54 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOat8C5IfqN0Z2+44pcoE0nPrQahgh/C2prE6DbkqcXy
 將 Output 完全複製起來。
 
 > [!IMPORTANT]
-> 全部的輸出都要複製起來！格式請參考 Output Format 輸出的所有內容。
+> 全部的輸出都要複製起來！格式請參考 Output Format 輸出的所有內容。 -->
+
+
+## 設定 SSH Config
+
+> [!IMPORTANT]
+>
+> 此 Section 也應於 VM 中完成！
+
+### STEP 1
+建立 `~/.ssh/config` 文件。
+```sh
+touch ~/.ssh/config
+```
+
+### STEP 2
+請將下方指令中的 `<your-github-id>` 與 `<private-key-name>` 更改為你的 GitHub ID 與 Private Key 的檔案名稱。
+
+```sh
+echo -e "Host github.com\n\tUser <your-github-id>\n\tIdentityFile ~/.ssh/<private-key-name>" >> ~/.ssh/config
+```
+
+### STEP 3
+使用 `cat` 檢查檔案資訊是否正確。
+
+```sh
+cat ~/.ssh/config
+```
+
+Output Format
+```
+Host github.com
+	User <your-github-id>
+	IdentityFile ~/.ssh/<private-key-name>
+```
 
 ## 將公鑰上傳至 GitHub
 
-### 1. 點擊 <ins>Settings</ins>
+**Reading Documentation**
+
+> [!IMPORTANT]
+> GitHub Docs: [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+> [!TIP]
+> 
+> GitHub Docs: [Testing your SSH connection](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/testing-your-ssh-connection)
+
+<!-- ### 1. 點擊 <ins>Settings</ins>
 ![](https://i.imgur.com/RfEqyna.png)
 
 ---
@@ -103,7 +182,7 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOat8C5IfqN0Z2+44pcoE0nPrQahgh/C2prE6DbkqcXy
 - <ins>Key</ins> 貼入完整的 SSH key。
 
 輸入完後，點擊 <ins>Add SSH key</ins>。
-![](https://i.imgur.com/FOVcm20.png)
+![](https://i.imgur.com/FOVcm20.png) -->
 
 ## 建立 Remote Repository
 
