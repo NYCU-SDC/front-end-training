@@ -4,6 +4,10 @@
 - **任務回報**：Covered by Task [FETP-22](./fetp-22.md).
 - **任務截止**：`2024/04/08` - `2024/04/14`
 
+> [!NOTE]
+>
+> 其中有兩個部分會要求各位閱讀文件，未來各位在開發或工作時，大量的閱讀文件將是必備的能力。
+
 ---
 
 ## TOC
@@ -16,11 +20,13 @@
     - [STEP 3](#step-3)
   - [將公鑰上傳至 GitHub](#將公鑰上傳至-github)
   - [建立 Remote Repository](#建立-remote-repository)
-    - [1. 回到自己的 GitHub 首頁，並點擊紅圈處 New。](#1-回到自己的-github-首頁並點擊紅圈處-new)
-    - [2. 完成紅圈處設定](#2-完成紅圈處設定)
+    - [STEP 1](#step-1-1)
+    - [STEP 2](#step-2-1)
+    - [STEP 3](#step-3-1)
   - [Push to GitHub](#push-to-github)
-    - [1. 選擇 SSH 並複製紅圈處指令](#1-選擇-ssh-並複製紅圈處指令)
-    - [2. 在 VM 中 `routingapp` 的專案目錄下貼上此指令](#2-在-vm-中-routingapp-的專案目錄下貼上此指令)
+    - [STEP 1](#step-1-2)
+    - [STEP 2](#step-2-2)
+    - [STEP 3](#step-3-2)
 
 ---
 
@@ -186,26 +192,44 @@ Host github.com
 
 ## 建立 Remote Repository
 
-### 1. 回到自己的 GitHub 首頁，並點擊紅圈處 <ins>New</ins>。
+### STEP 1
+回到自己的 GitHub 首頁，並點擊紅圈處 <ins>New</ins>。
 ![](https://i.imgur.com/oYTHqRh.png)
 
 ---
 
-### 2. 完成紅圈處設定
+### STEP 2
+完成紅圈處設定
 - <ins>Owner</ins> 請選擇自己的帳號
 - <ins>Repository name</ins> 依照 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 請命名 <ins>routingapp</ins> 或 <ins>routing-app</ins>。
+- 請將 Repository 設為公開。
+
 ![](https://i.imgur.com/sJ8OUPi.png)
 
 ---
 
+### STEP 3
 看到此頁面就建立成功囉！
+
 ![](https://i.imgur.com/056xCCa.png)
 
 ## Push to GitHub
 
-### 1. 選擇 SSH 並複製紅圈處指令
+### STEP 1
+選擇 SSH 並複製紅圈處指令
+
 ![](https://i.imgur.com/B5BAKLU.png)
 
 ---
 
-### 2. 在 VM 中 `routingapp` 的專案目錄下貼上此指令
+### STEP 2
+在 VM 中 `routingapp` 的專案目錄下貼上此指令，並執行。
+
+![](https://i.imgur.com/neLz7tL.png)
+
+---
+
+### STEP 3
+重新整理 GitHub 頁面，看到專案出現就完成了！
+
+![](https://i.imgur.com/hl9yy2Y.png)
