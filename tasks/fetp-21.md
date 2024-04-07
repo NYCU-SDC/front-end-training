@@ -3,7 +3,7 @@
 
 ## INFORMATION
 
-- **任務回報**：Covered by Task [FETP-22](./fetp-23.md).
+- **任務回報**：Covered by Task [FETP-22](./fetp-22.md).
 - **任務截止**：`2024/04/08` - `2024/04/14`
 - **前置任務**：
   - [FETP-9](https://www.notion.so/sdc-nycu/Vue-Environment-and-Initialization-f3494b38c2654c489689f97d8d373d2a?pvs=4)
