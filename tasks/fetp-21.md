@@ -1,17 +1,25 @@
 # TASK FETP-21
 本任務要讓各位將 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 中的 Code 推到各位自己的 GitHub Repository.
 
+## INFORMATION
+
 - **任務回報**：Covered by Task [FETP-22](./fetp-23.md).
 - **任務截止**：`2024/04/08` - `2024/04/14`
+- **前置任務**：
+  - [FETP-9](https://www.notion.so/sdc-nycu/Vue-Environment-and-Initialization-f3494b38c2654c489689f97d8d373d2a?pvs=4)
+  - [FETP-19](https://www.notion.so/sdc-nycu/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4)
 
 > [!NOTE]
->
 > 其中有兩個部分會要求各位閱讀文件。未來各位在開發或工作時，大量的閱讀文件將是必備的能力。
+
+> [!WARNING]
+> 請一定先完成前置任務在開始執行此任務！
 
 ---
 
 ## TOC
 - [TASK FETP-21](#task-fetp-21)
+  - [INFORMATION](#information)
   - [TOC](#toc)
   - [建立 Key Pair](#建立-key-pair)
   - [設定 SSH Config](#設定-ssh-config)

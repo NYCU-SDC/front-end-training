@@ -1,14 +1,25 @@
 # TASK FETP-22
 本任務要讓各位了解新的 Workflow 中，要怎麼完成任務回報。
 
+## INFORMATION
+
 - **任務回報**：Pull Request
 - **任務截止**：`2024/04/08` - `2024/04/14`
+- **前置任務**：
+  - [FETP-9](https://www.notion.so/sdc-nycu/Vue-Environment-and-Initialization-f3494b38c2654c489689f97d8d373d2a?pvs=4)
+  - [FETP-19](https://www.notion.so/sdc-nycu/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4)
+  - [FETP-21](./fetp-21.md)
+  - [FETP-23](./fetp-23.md)
+
+> [!WARNING]
+> 請一定先完成前置任務在開始執行此任務！
 
 ---
 
 ## TOC
 
 - [TASK FETP-22](#task-fetp-22)
+  - [INFORMATION](#information)
   - [TOC](#toc)
   - [Clone Repository](#clone-repository)
     - [STEP 1: Go to the home directory](#step-1-go-to-the-home-directory)
@@ -130,6 +141,9 @@ git submodule add <your-repo-https-link>
 > 如果想重設 Submodule，請參考 [How do I remove a submodule?](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule) 中的正確解法（被打綠色勾的回覆）。
 
 ## Add your report
+
+> [!IMPORTANT]
+> 請先完成 [FETP-23](./fetp-23.md)，再開始撰寫報告與完成後續步驟。
 
 > [!IMPORTANT]
 > Please use `pwd` to check whether your location in the file system is in `/home/ansible/front-end-training/<your-github-id>/`.

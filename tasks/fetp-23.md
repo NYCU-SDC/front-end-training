@@ -4,15 +4,22 @@
 
 本任務要讓各位安裝並設定 Web Server: Nginx，同時部署自己的 Vue 專案，來提供固定的 Web Service。
 
-在此任務中你將學到：
-- 如何部署 Vue 專案。
-- 初步認識 Developing Environment 與 Production Environment。
-- 如何提供 Web Service（建立你的網站）。
+各位將於本次任務學習到：
+1. 如何部署 Vue 專案
+2. 初步認識 Developing Environment 與 Production Environment
+3. 如何提供 Web Service（建立你的網站）
 
----
+## INFORMATION
 
-- **任務回報**：
+- **任務回報**： Covered by [FETP-22](./fetp-22.md)
 - **任務截止**：`2024/04/08` - `2024/04/14`
+- **前置任務**：
+  - [FETP-9](https://www.notion.so/sdc-nycu/Vue-Environment-and-Initialization-f3494b38c2654c489689f97d8d373d2a?pvs=4)
+  - [FETP-19](https://www.notion.so/sdc-nycu/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4)
+  - [FETP-21](./fetp-21.md)
+
+> [!WARNING]
+> 請一定先完成前置任務在開始執行此任務！
 
 ---
 
