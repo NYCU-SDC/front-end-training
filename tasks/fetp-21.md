@@ -201,7 +201,7 @@ Host github.com
 ### STEP 2
 完成紅圈處設定
 - <ins>Owner</ins> 請選擇自己的帳號
-- <ins>Repository name</ins> 依照 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 請命名 <ins>routingapp</ins> 或 <ins>routing-app</ins>。
+- <ins>Repository name</ins> 依照 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 請命名 <ins>routingapp</ins>。
 - 請將 Repository 設為公開。
 
 ![](https://i.imgur.com/sJ8OUPi.png)

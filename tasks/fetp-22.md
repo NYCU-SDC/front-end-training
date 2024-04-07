@@ -119,11 +119,11 @@ Output:
 ### STEP 3: Add your repo as a submodule.
 
 ```sh
-git submodule add <your-repo-link>
+git submodule add <your-repo-https-link>
 ```
 
 > [!IMPORTANT]
-> 請將 `<your-repo-link>` 替換為您 `routing-app` 的 https 連結，請參考下方圖片。
+> 請將 `<your-repo-https-link>` 替換為您 `routingapp` 的 https 連結，請參考下方圖片。
 > ![](https://i.imgur.com/mrRVOMv.png)
 
 > [!TIP]
