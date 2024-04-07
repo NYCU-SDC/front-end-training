@@ -26,7 +26,7 @@ And now, we have a Google group: [2024 Front-end Training](https://groups.google
 
     
 ### **Active Learning**
-his project is supervised by NYCU Liberal Arts College. - March 17, 2024 1:19 PM 
+This project is supervised by NYCU Liberal Arts College. - March 17, 2024 1:19 PM 
 
 If you are willing, I will apply for the Active Learning book club, and relevant resources and funds will be available.
 
