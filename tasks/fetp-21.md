@@ -1,7 +1,7 @@
 # TASK FETP-21
 本任務要讓各位將 [FETP-19](https://sdc-nycu.notion.site/Vue-Routing-Beginner-to-Advanced-3f8085ec15ca4ed18bb07674482d704a?pvs=4) 中的 Code 推到各位自己的 GitHub Repository.
 
-- **任務回報**：Covered by Task [FETP-22](./fetp-22.md).
+- **任務回報**：Covered by Task [FETP-22](./fetp-23.md).
 - **任務截止**：`2024/04/08` - `2024/04/14`
 
 > [!NOTE]

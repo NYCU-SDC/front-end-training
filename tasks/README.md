@@ -1,3 +1,6 @@
+> [!WARNING]
+> This page is drafting.
+
 ## 開始之前
 
 ### 先決條件
