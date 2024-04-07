@@ -25,6 +25,19 @@
 
 ## TOC
 
+- [TASK FETP-23](#task-fetp-23)
+  - [INFORMATION](#information)
+  - [TOC](#toc)
+  - [Install Nginx](#install-nginx)
+  - [Deploy your VUE project](#deploy-your-vue-project)
+    - [STEP 1: Turn to www directory](#step-1-turn-to-www-directory)
+    - [STEP 2: Clone your VUE project with `sudo`](#step-2-clone-your-vue-project-with-sudo)
+    - [STEP 3: Turn into your project directory](#step-3-turn-into-your-project-directory)
+    - [STEP 4: Deploy VUE project](#step-4-deploy-vue-project)
+  - [Configure Nginx](#configure-nginx)
+    - [STEP 1: Configuration File](#step-1-configuration-file)
+    - [STEP 2: Restart Nginx](#step-2-restart-nginx)
+    - [STEP 3: Check](#step-3-check)
 
 ---
 
