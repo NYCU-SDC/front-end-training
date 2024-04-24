@@ -58,29 +58,38 @@ Nginx 可以讓我們在同一個 port 的主機，在不用輸入 port 的情�
 
 `run dev` 是在 development 開發期間有更好的體驗，例如 hot module replacement 等等，是開發時測試環境的命令。但 `run build` 才可以將所有程式打包成一個可能開發起來不快，但使用效能會很快，是要上架時應該要跑的命令。
 
----
 
 > **QUESTION:** 在 Nginx 中 `root` 這個設定項代表著什麼？
 
-Answer here.
+`root` 代表根目錄的位置，也就是在部署網站時，會去 `root` 的路徑尋找 `index.html` 來作為使用者點進網站之後會看到的畫面。
 
 ---
 
 > **QUESTION:** 為什麼我們要設定 `/var/www/routingapp/dist` 為 `root` ，而非 `/var/www/routingapp/` 或其他目錄？
 
-Answer here.
+`dist` 的英文全文是 distribution 。這個資料夾是在運行完 `npm build` 之後自動產生、可以部署到網站的靜態文件們。 `dist` 中的靜態文件們通常會是壓縮、優化過的，能提供最佳效能、安全性的網頁。另外，透過部署 `dist` 資料夾中的 `npm build` 之後產生的東西，可以跟 `src` 也就是網站的 source code 做出區別，進而保障網頁安全性。
 
 ---
 
 > **QUESTION:** 請「簡單」說明 Production Environment 與 Developing Environment。
 
-Answer here.
+Development Environment 則是在開發過程和測試階段的環境，注重程式是否可以 hot reload，也就是希望程式設置修改的靈活度要高，經過開發測試都沒問題才能將 build 好的程式放到 Production Environment；而 Production Environment 是在產品（網頁）要上架或部署的時候的環境，注重程式運行的效能、穩定性、安全性
+
+|          | Production Environment   | Development Environment |
+| -------- | ------------------------ | ----------------------- |
+| 注重     | 程式效能、安全性、穩定性 | 開發自由度、Hot Reload  |
+| 使用情境 | 部署                     | 開發、測試              |
+| 對象     | 使用者 (End user)        | 開發者、測試者          |
 
 ---
 
 > (optional) **QUESTION:** 除了 Production 與 Developing 以外，還有什麼 Environment？ 您也可以針對這幾種 Env 進行介紹。
 
-Answer here.
+在 development 和 production 之間還有 Testing Environment 和 Staging Environment :
+
+1. 前者 `Testing Environment` 主要是讓測試人員可以在不同的環境（例如不同瀏覽器）手動或自動測試，可以讓測試人員用一些 log 的方式記錄下錯誤，給開發人員及時修正，可以邊開發邊進行。
+
+2. 後者 `Staging Environment` 是在開發差不多完成時，部署到一個跟 Production Environment 盡量完全相同的地方，做「負載測試」（模擬大量使用者、大量需求等等極端狀況）確保部署之後的網路、程式都能正常運行，之後才可以放到 Production Environment。
 
 ---
 
@@ -88,7 +97,7 @@ Answer here.
 >
 > 請問您認為以上兩個目錄，誰更適合作為 Production，誰適合作為 Developing？
 
-Answer here.
+`~/ansible/routingapp` 適合 Developing 而 `/var/www/routingapp` 適合 Production。因為透過 root 連接的地方，也就是最後透過 Nginx 部署到 `nycu.me` 網站的是 `/var/www/routingapp/dist` 裡面的資料，而 `~/ansible/routingapp` 裡的修改不會影響，適合作為開發和測試的環境。
 
 ---
 
@@ -97,7 +106,6 @@ Answer here.
 Answer here.
 
 ---
-
 ## OTHERS
 
 > 這裡可以寫下任何你想紀錄或你想展示的內容！
