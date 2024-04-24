@@ -77,9 +77,9 @@ Development Environment 則是在開發過程和測試階段的環境，注重�
 
 |          | Production Environment   | Development Environment |
 | -------- | ------------------------ | ----------------------- |
-| 注重     | 程式效能、安全性、穩定性 | 開發自由度、Hot Reload  |
-| 使用情境 | 部署                     | 開發、測試              |
-| 對象     | 使用者 (End user)        | 開發者、測試者          |
+| 注重     | 程式效能、安全性、穩定性     | 開發自由度、Hot Reload  |
+| 使用情境 | 部署                      | 開發、測試              |
+| 對象     | 使用者 (End user)         | 開發者、測試者          |
 
 ---
 
@@ -103,11 +103,26 @@ Development Environment 則是在開發過程和測試階段的環境，注重�
 
 > **QUESTION:** 前面請各位同時使用 `npm run dev -- --host` 並截圖差異。請根據此提示，說明前一個問題的為何會這樣判斷。
 
-Answer here.
+
+1. In development environment, the command `npm run dev -- --host` shown normal as below:
+
+    <img src="assets/dev.png"> 
+
+2. In production environment, the command `npm run dev -- --host` failed as below:
+
+    <img src="assets/pro.png">
+
 
 ---
 ## OTHERS
 
 > 這裡可以寫下任何你想紀錄或你想展示的內容！
 
-Answer here.
+一開始在建立自己的 routing-app 的時候中間多了一個 `-` 導致 `fetp-23` 卡了一陣子。但最後還是發現上傳到的版本有些不滿意（navbar沒有置中加底色），修改 `routing-app` repository 中的檔案之後，發現 `var/www/` 底下的網站 `yungchu.nycu.me` 並沒有更新。蠻好奇是為什麼的，但還沒有找到原因，或是說也沒有找到更新方式。可能要再 build 一次嗎？結果還是沒有改變，現在就是有兩種版本的網頁 😂
+
+下面是我想展示的：
+<img src="assets/show.png">
+
+在寫任務的過程很有成就感，我覺得跟規劃課程的用心呈現正相關！非常感謝 SDC AL 讓我們可以透過這種紀錄成長的方式學習。本來很沒有動力完成，但發現自己更沒有動力完成其他作業，於是選擇這個任務，完成之後感覺很開心！份量規劃的很好，可以在一天內完成。
+
+很喜歡每個任務會有幾題思考的題目，在搜尋答案、紀錄的過程可以有好的學習方向，透過輸出來增進記憶與理解，是很幸福的事情。
