@@ -1,7 +1,7 @@
 # FETP-22 Report
 
 ## INFORMATION
-**GitHub ID**: `<your-github-id>`
+**GitHub ID**: `Akhilesh1004`
 
 ## FETP-21
 
@@ -77,7 +77,7 @@
 >
 > 請問您認為以上兩個目錄，誰更適合作為 Production，誰適合作為 Developing？
 
-**ANSWER:** ~/ansible/routingapp for Developing Environment and /var/www/routingapp for Developing Environment
+**ANSWER:** ~/ansible/routingapp for Developing Environment and /var/www/routingapp for Production Environment
 
 ---
 
