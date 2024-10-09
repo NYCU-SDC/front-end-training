@@ -4,6 +4,8 @@
 > If you are not a participant yet but want to join this team, please email `nycu1sdc@gmail.com` and provide your name, email, Github ID, and Notion Account.
 > [Discord - A New Way to Chat with Friends & Communities](https://discord.com/channels/738258665135538228/1198426900784218133)
 
+> Originally managed in page [[SDC] Front-end Team](https://sdc-nycu.notion.site/SDC-Front-end-Team-190af252722e483082fd92ccdaf4e714?pvs=4) on Notion, our progress was migrated to GitHub (here) on April 7, 2024.
+
 ## POLICY
 
 > We hope that after training, you can join the front-end team of [nycu.me](http://nycu.me/) and SDC.
