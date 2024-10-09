@@ -1,4 +1,6 @@
-FROM node:22-bookworm
+FROM node:18-bookworm
+
+WORKDIR /code/app
 
 RUN apt update && apt upgrade -y
 RUN apt install -y openssh-server
